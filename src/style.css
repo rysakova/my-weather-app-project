@@ -14,5 +14,23 @@ body {
     padding: 30px;
 }
 
+.city-input {
+    background-color: #cfe4f1;
+    border: none;
+    border-radius: 6px;
+    width: 80%;
+    font-size: 16px;
+    padding: 15px 20px; 
+}
+
+.search-button {
+    background-color: #329ee2;
+    padding: 15px 30px;
+    border: none;
+    font-size: 16px;
+    margin-left: 5px;
+    border-radius: 6px;
+    color: #cfe4f1;
+}
 
 
