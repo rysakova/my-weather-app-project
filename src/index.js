@@ -4,7 +4,6 @@ function updateWeather(response) {
     let cityElement = document.querySelector("#city");
     cityElement.innerHTML = response.data.city;
     temperatureElement.innerHTML = Math.round(temperature);
-    console.log (response.data.city);
 }
 
 
@@ -25,3 +24,5 @@ function searchSubmit(event) {
 
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", searchSubmit);
+
+searchCity("Kyiv");
